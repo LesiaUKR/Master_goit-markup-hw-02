@@ -1,0 +1,66 @@
+/* ========== VARIABLES ========== */
+:root{
+
+--primary-font: "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif;
+
+--primary-brand-color: #4D5AE5;
+--pressed-state-color: #404BBF;
+--overlays-shadows-headings-color: #2E2F42;
+--success-color: #31D0AA;
+--body-text-color: #434455;
+--subtitle-text-color: #8E8F99;
+--first-accent-color:#E7E9FC;
+--light-mode-backgrounds-color: #F4F4FD;
+--first-background-color: #ffffff;
+--modal-background-color: #FCFCFC;
+
+}
+/* ========== /VARIABLES ========== */
+
+/* ========== COMMON STYLES ========== */
+
+body {
+    font-family: var(--primary-font);
+    /* font-size: 16px; */
+    color: var(--body-text-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* ========== /COMMON STYLES ========== */
+
+/* ========== HEADER ========== */
+
+.logo {
+        font-family: var(--secondary-font);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        color:var(--overlays-shadows-headings-color);
+}
+
+.logo-accent-text {
+color: var(--primary-brand-color);
+}
+
+.logo-footer-text {
+    color: var(--light-mode-backgrounds-color);
+}
+
+
+
+/* ========== /HEADER ========== */
