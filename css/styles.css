@@ -161,22 +161,23 @@ footer .logo-accent-text {
 
 /* ========== PORTFOLIO SECTION ========== */
 .portfolio-filters-btn {
-      text-align: center;
-      font-family: Roboto;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-          background: var(--light-mode-backgrounds-color);
-            color: var(--primary-brand-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--light-mode-backgrounds-color);
+  color: var(--primary-brand-color);
 }
 .portfolio-filters-btn:hover,
 .portfolio-filters-btn:focus {
-        background: var(--pressed-state-color);
-          color: var(--first-background-color);
+  background: var(--pressed-state-color);
+  color: var(--first-background-color);
 }
 /* ========== /PORTFOLIO SECTION ========== */
+
 /* ========== FOOTER ========== */
 
 .footer {
