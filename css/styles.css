@@ -91,19 +91,6 @@ footer .logo-accent-text {
 
 /* ========== /HEADER ========== */
 
-/* ========== FOOTER ========== */
-
-.footer {
-  background-color: var(--overlays-shadows-headings-color);
-}
-
-.footer-text {
-  font-style: normal;
-  line-height: 1.5;
-  color: var(--light-mode-backgrounds-color);
-}
-/* ========== /FOOTER ========== */
-
 /* ========== HERO SECTION ========== */
 .hero-section {
   background-color: var(--overlays-shadows-headings-color);
@@ -173,11 +160,6 @@ footer .logo-accent-text {
 /* ========== /TEAM SECTION ========== */
 
 /* ========== PORTFOLIO SECTION ========== */
-
-
-
-
-/* ========== /PORTFOLIO SECTION ========== */
 .portfolio-filters-btn {
       text-align: center;
       font-family: Roboto;
@@ -194,4 +176,17 @@ footer .logo-accent-text {
         background: var(--pressed-state-color);
           color: var(--first-background-color);
 }
+/* ========== /PORTFOLIO SECTION ========== */
+/* ========== FOOTER ========== */
 
+.footer {
+  background-color: var(--overlays-shadows-headings-color);
+}
+
+.footer-text {
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--light-mode-backgrounds-color);
+}
+
+/* ========== /FOOTER ========== */
